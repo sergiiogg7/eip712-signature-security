@@ -12,9 +12,8 @@ Origin: course workshop `Bloque-19` (ecrecover validation). Project type: educat
 
 ## Pending
 
-- Badges with the CI link once the GitHub repo exists.
 - GitHub About (description): "Five real signature bugs in Solidity (ecrecover, malleability, replay) with working exploits, and a secure EIP-712 + ERC-1271 implementation. Foundry + viem."
 - GitHub topics: `solidity`, `foundry`, `eip-712`, `erc-1271`, `ecrecover`, `smart-contract-security`, `viem`, `signature-replay`.
-- Push, CI check and `gh run list` after the first push.
+- Done 2026-11-10: first push, CI green, CI badge in README.
 - Optional: ERC-2612 `permit` token or a meta-transaction relayer extension.
 - Optional: deploy to Sepolia and verify on Etherscan.

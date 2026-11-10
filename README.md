@@ -1,6 +1,6 @@
 # Signature Security Workshop
 
-![Solidity](https://img.shields.io/badge/Solidity-0.8.24-363636) ![Foundry](https://img.shields.io/badge/Foundry-1.7.1-orange) ![Tests](https://img.shields.io/badge/tests-56-brightgreen)
+[![CI](https://github.com/sergiiogg7/eip712-signature-security/actions/workflows/test.yml/badge.svg)](https://github.com/sergiiogg7/eip712-signature-security/actions/workflows/test.yml) ![Solidity](https://img.shields.io/badge/Solidity-0.8.24-363636) ![Foundry](https://img.shields.io/badge/Foundry-1.7.1-orange) ![Tests](https://img.shields.io/badge/tests-56-brightgreen)
 
 Off-chain signatures are how contracts delegate authority: whitelists, claims, meta-transactions, permits. They are also where many real exploits start. This repo shows **five classic signature bugs, each with a working exploit**, and a **secure contract that fixes all of them** (EIP-712, nonces, deadline, OpenZeppelin ECDSA, ERC-1271), plus a **viem script** that signs and submits on a local node.
 

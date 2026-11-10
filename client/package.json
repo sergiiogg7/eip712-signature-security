@@ -1,0 +1,19 @@
+{
+  "name": "signature-authorizer-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "viem script that signs EIP-712 typed data off-chain and submits it to SignatureAuthorizer on Anvil",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "demo": "tsx src/demo.ts"
+  },
+  "dependencies": {
+    "viem": "2.38.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.0",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}
